@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IMC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div id="flex-center">
+    <div id="principal">
+
+        <div id="foto">
+            <img src="img/foto.jpg" alt="foto de uma mulher segurando uma melancia">
+        </div>
+        
+        <div id="conteudo">
+            <img src="img/logo (1).png" alt="logotipo voce saudável">
+        
+        
+        <h1>Calcule seu IMC</h1>
+        <p>Preencha as informações abaixo para calcular</p>
+        
+        <form action="#">
+            <label for="peso">Digite seu peso</label><br />
+            <input type="number" placeholder="Digite seu peso" id="peso" step="0.01" /><br /><br />
+
+            <label for="altura">Digite seu altura</label><br />
+            <input type="number" placeholder="Digite sua altura" id="altura" step="0.01" /><br /><br />
+            <button id="btn">Calcular IMC</button>
+        </form>
+
+        <div id="resultado"></div>
+        
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
