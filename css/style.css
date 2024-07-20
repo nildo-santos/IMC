@@ -37,7 +37,7 @@ button{
 }
 button:hover{
     transform: scale(0.95);
-    background-color: #1a0202e1;
+    background-color: #08b363e1;
     color: #666;
 }
 #flex-center{
